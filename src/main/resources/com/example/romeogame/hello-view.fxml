@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER"
+      fx:controller="com.example.romeogame.HelloController">
+
+    <padding>
+        <Insets top="40" right="1" bottom="20" left="1"/>
+    </padding>
+
+    <!-- Add label to display turn information -->
+    <Label text="Turn: Red Player!" fx:id="turnLabel" alignment="BOTTOM_CENTER"
+           style="-fx-font-size: 12pt; -fx-font-weight: bold;" />
+
+    <GridPane
+            alignment="CENTER" hgap="5" vgap="3">
+        <padding>
+            <Insets top="10" right="20" bottom="20" left="20"/>
+        </padding>
+
+
+        <!-- Define ImageViews for each card in the grid -->
+        <ImageView GridPane.columnIndex="0" GridPane.rowIndex="0" fx:id="card00" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="1" GridPane.rowIndex="0" fx:id="card01" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="2" GridPane.rowIndex="0" fx:id="card02" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="3" GridPane.rowIndex="0" fx:id="card03" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="4" GridPane.rowIndex="0" fx:id="card04" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="5" GridPane.rowIndex="0" fx:id="card05" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="6" GridPane.rowIndex="0" fx:id="card06" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="card10" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="card11" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="2" GridPane.rowIndex="1" fx:id="card12" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="3" GridPane.rowIndex="1" fx:id="card13" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="4" GridPane.rowIndex="1" fx:id="card14" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="5" GridPane.rowIndex="1" fx:id="card15" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="6" GridPane.rowIndex="1" fx:id="card16" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="0" GridPane.rowIndex="2" fx:id="card20" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="card21" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="2" GridPane.rowIndex="2" fx:id="card22" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="3" GridPane.rowIndex="2" fx:id="card23" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="4" GridPane.rowIndex="2" fx:id="card24" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="5" GridPane.rowIndex="2" fx:id="card25" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="6" GridPane.rowIndex="2" fx:id="card26" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="0" GridPane.rowIndex="3" fx:id="card30" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="card31" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="2" GridPane.rowIndex="3" fx:id="card32" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="3" GridPane.rowIndex="3" fx:id="card33" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="4" GridPane.rowIndex="3" fx:id="card34" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="5" GridPane.rowIndex="3" fx:id="card35" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="6" GridPane.rowIndex="3" fx:id="card36" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="0" GridPane.rowIndex="4" fx:id="card40" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="card41" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="2" GridPane.rowIndex="4" fx:id="card42" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="3" GridPane.rowIndex="4" fx:id="card43" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="4" GridPane.rowIndex="4" fx:id="card44" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="5" GridPane.rowIndex="4" fx:id="card45" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="6" GridPane.rowIndex="4" fx:id="card46" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="0" GridPane.rowIndex="5" fx:id="card50" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="card51" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="2" GridPane.rowIndex="5" fx:id="card52" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="3" GridPane.rowIndex="5" fx:id="card53" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="4" GridPane.rowIndex="5" fx:id="card54" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="5" GridPane.rowIndex="5" fx:id="card55" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="6" GridPane.rowIndex="5" fx:id="card56" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="0" GridPane.rowIndex="6" fx:id="card60" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="1" GridPane.rowIndex="6" fx:id="card61" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="2" GridPane.rowIndex="6" fx:id="card62" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="3" GridPane.rowIndex="6" fx:id="card63" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="4" GridPane.rowIndex="6" fx:id="card64" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="5" GridPane.rowIndex="6" fx:id="card65" onMouseClicked="#handleCardClick"/>
+        <ImageView GridPane.columnIndex="6" GridPane.rowIndex="6" fx:id="card66" onMouseClicked="#handleCardClick"/>
+        <!-- Add ImageViews for the chess counters -->
+        <ImageView GridPane.columnIndex="6" GridPane.rowIndex="0" fx:id="blackKing"/>
+        <ImageView GridPane.columnIndex="0" GridPane.rowIndex="6" fx:id="redKing"/>
+
+    </GridPane>
+
+</VBox>
